@@ -9,6 +9,7 @@ body {
 a {
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
 }
 
 li {
@@ -88,10 +89,15 @@ h2 {
 	font-weight: 400;
 	letter-spacing: 0.025em;
 	color: #000000;
+	text-align: center;
+}
+
+h2:not(.h2_first) {
+	margin-top: 0;
 }
 
 #what {
-	height: 1100px;
+	height: 1050px;
 }
 
 .what_i_do {
@@ -105,8 +111,7 @@ h2 {
 
 .what_header {
 	width: 50%;
-	text-align: center;
-	margin-top: 91px;
+	margin-top: 90px;
 }
 
 .vertical_line_what {
@@ -133,8 +138,8 @@ h2 {
 
 .skills > div:first-child {
 	width: 40%;
-	display: inline-block;
-	padding: 70px 70px 0 70px;
+	padding-left: 100px;
+	padding-top: 60px;
 	float: left;
 	margin-right: 10%;
 }
@@ -235,7 +240,8 @@ h2 {
 }
 
 #contact .header,
-#contact label {
+#contact label,
+#contact button {
 	font-family: Karla, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 28px;
@@ -258,7 +264,7 @@ h2 {
 #contact input,
 #contact textarea  {
 	background-color: #f1f1f1;
-	width: 300px;
+	width: 400px;
 	border: none;
 	resize: none;
 } 
@@ -270,7 +276,7 @@ h2 {
 #contact button {
 	background-color: #ffffff;
 	border: none;
-	margin-left: 130px;
+	margin-left: 180px;
 }
 
 footer p {
