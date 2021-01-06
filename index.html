@@ -2,102 +2,150 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My page</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
+		<h1 class="visually-hidden">Home</h1>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<!-- вставить ссылки на блоки -->
-				<li><a href="">My works</a></li>
-				<li><a href="">What I do</a></li>
-				<li><a href="">About me</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a href="#works">My works</a></li>
+				<li><a href="#what">What I do</a></li>
+				<li><a href="#about_me">About me</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<section class="gallery">
-		<h2 class="hidden">Gallery</h2>
-		<img src="" alt="">
-
-		<span>Expand</span>
+	<section id="works">
+		<h2 class="visually-hidden">Gallery</h2>
+		<div class="gallery-top">
+			<img src="img/1.png" alt="">
+			<img src="img/2.png" alt="">
+		</div>
+		<div class="gallery-bottom">
+			<img src="img/3.png" alt="">
+			<img src="img/4.png" alt="">
+			<img src="img/5.png" alt="">
+			<img src="img/6.png" alt="">
+		</div>
+		<div class="expand"><span>Expand</span></div>
 	</section>
 
-	<section class="what_i_do">
-		<h2>What I do</h2>
-		<hr>
-		<!-- вставить абзац -->
-		<p></p>
-	</section>
-
-	<section class="skills">
-		<a href="#">
-			
-			<h3>Key Visual</h3>
-		</a>
-		<a href="#">
-			
-			<h3>UX/UI</h3>
-		</a>
-		<a href="#">
-
-			<h3>Brand</h3>
-		</a>
-		<a href="#">
-
-			<h3>Package design</h3>
-		</a>
-		<hr>
-		<div>
-			<img src="" alt="">
-			<span>UX/UI</span>
-			<p></p>
+	<section id="what">
+		<div class="what_i_do">
+			<div class="what_header"><h2>What I do</h2></div>
+			<div class="vertical_line_what"></div>
+			<div class="what_text">
+				<p>
+					Fingerstache green juice semiotics quinoa, truffaut letterpress 
+					wolf photo booth ugh biodiesel mumblecore brunch. Meh austin 
+					vinyl banh mi, gluten-free chillwave scenester kombucha street 
+					art. Before they sold out lumbersexual chillwave, cold-pressed 
+					mumblecore beard pickled letterpress normcore crucifix.
+				</p>
+			</div>
+		</div>
+		
+		<div class="skills clear">
+			<div>
+				<img src="img/what_i_do.png" width="400">
+				<h3>UX/UI</h3>
+				<p>Fingerstache green juice semiotics quinoa, truffaut letterpress wolf
+					 photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi, 
+					 gluten-free chillwave scenester kombucha street art. Before they sold out
+					  lumbersexual chillwave, cold-pressed mumblecore beard pickled letterpress 
+					  normcore crucifix.</p>
+			</div>
+			<table class="skills_table">
+				<tbody>
+					<tr>
+						<td class="skills_square"></td>
+						<td class="skills_text">Key visual</td>
+					</tr>
+					<tr>
+						<td class="skills_square"></td>
+						<td class="skills_text">UX/UI</td>
+					</tr>
+					<tr>
+						<td class="skills_square"></td>
+						<td class="skills_text">Brand</td>
+					</tr>
+					<tr>
+						<td class="skills_square"></td>
+						<td class="skills_text">Package design</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</section>
 
-	<section class="about_me">
-		<!-- insert pic -->
-		<img src="" alt="">
-		<hr>
-		<h2>About me</h2>
-		<!-- insert p -->
-		<p></p>
+	<section id="about_me">
+		<div><img src="img/me.png" alt="my photo" height="500"></div>
+		<div class="vertical_line"></div>
+		<div class="about_text">
+			<h2>About me</h2>
+			<p>Fingerstache green juice semiotics quinoa, truffaut letterpress wolf 
+				photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi, 
+				gluten-free chillwave scenester kombucha street art. Before they sold 
+				out lumbersexual chillwave, cold-pressed mumblecore beard pickled 
+				letterpress normcore crucifix. Fingerstache green juice semiotics quinoa, 
+				truffaut letterpress wolf photo booth ugh biodiesel mumblecore brunch. 
+				Meh austin vinyl banh mi, gluten-free chillwave scenester kombucha street 
+				art. Before they sold out lumbersexual chillwave, cold-pressed mumblecore 
+				beard pickled letterpress normcore crucifix. Fingerstache green juice 
+				semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel 
+				mumblecore brunch. Meh austin vinyl banh mi, gluten-free chillwave 
+				scenester kombucha street art. Before they sold out lumbersexual 
+				chillwave, cold-pressed mumblecore beard pickled letterpress normcore 
+				crucifix. Fingerstache green juice semiotics quinoa, truffaut 
+				letterpress wolf photo booth ugh biodiesel mumblecore brunch. Meh austin 
+				vinyl banh mi, gluten-free chillwave scenester kombucha street art. 
+				Before they sold out lumbersexual chillwave, cold-pressed mumblecore 
+				beard pickled letterpress normcore crucifix.</p>
+		</div>
 	</section>
 
-	<section class="contact">
+	<section id="contact">
 		<div>
 			<h2>Contact</h2>
 			<p>
-				<span>Address:</span>
-				<!-- insert text -->
-				<span></span>
+				<span class="header">Address:</span>
+				<br>
+				<span>9114 Bridge Street,<br>Hillsboro, OR 97124</span>
 			</p>
-			<p>
-				<span>Phone:</span>
+			<p class="phone">
+				<span class="header">Phone:</span>
+				<br>
 				<span>+48 202-555-0114</span>
 			</p>
-			<p>
-				<span>Email:</span>
+			<p class="email">
+				<span class="header">Email:</span>
+				<br>
 				<span>contact@yoursite.com</span>
 			</p>
 		</div>
-		<hr>
-		<div>
-			<form action="">
+		<div class="vertical_line"></div>
+		<div class="contact_form">
+			<form action="#" method="POST">
 				<p>
 					<label for="name">Name:</label>
+					<br>
 					<input type="text" name="name" id="name">
 				</p>
 				<p>
 					<label for="email">Email:</label>
+					<br>
 					<input type="email" name="email" id="email">
 				</p>
 				<p>
 					<label for="message">Message:</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<br>
+					<textarea name="message" id="message" rows="8"></textarea>
 				</p>
 				<p>
 					<button type="submit">Send</button>
@@ -106,7 +154,7 @@
 		</div>
 	</section>
 
-	<footer>
+	<footer class="clear">
 		<p>Copyright 2020 by Damian Lisiewski</p>
 	</footer>
 </body>

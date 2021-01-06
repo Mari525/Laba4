@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+section,
+.clear {
+	clear: both;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+nav {
+	display: block;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+nav li {
+	float: left;
+	margin-right: 50px;
+}
+
+nav a {
+	font-family: Karla, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 78px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #373636;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+.gallery-top,
+.gallery-bottom {
+	width: 100%;
+}
+
+.gallery-top img {
+	width: 50%;
+	height: 450px;
+	float: left;
+}
+
+.gallery-bottom img {
+	width: 25%;
+	height: 350px;
+	float: left;
+}
+
+.expand {
+	clear: both;
+	width: 130px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.expand span {
+	font-family: Karla, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 114px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+
+h2 {
+	font-family: Karla, Arial, sans-serif;
+	font-size: 65px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #000000;
+}
+
+#what {
+	height: 1100px;
+}
+
+.what_i_do {
+	vertical-align: middle;
+	height: 350px;
+}
+
+.what_i_do > div {
+	float: left;
+}
+
+.what_header {
+	width: 50%;
+	text-align: center;
+	margin-top: 91px;
+}
+
+.vertical_line_what {
+	width: 1px;
+	height: 100px;
+	background-color: black;
+	margin-right: 100px;
+	margin-top: 146px;
+}
+
+.what_text {
+	width: 35%;
+	text-align: justify;
+	margin-top: 92px;
+}
+
+.what_i_do p {
+	font-family: Karla, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #000000;
+}
+
+.skills > div:first-child {
+	width: 40%;
+	display: inline-block;
+	padding: 70px 70px 0 70px;
+	float: left;
+	margin-right: 10%;
+}
+
+.skills h3 {
+	text-align: center;
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 90px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+.skills p {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.skills table {
+	border-spacing: 0 60px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+	cursor: pointer;
+}
+
+.skills tbody {
+	vertical-align: middle;
+}
+
+.skills_square {
+	width: 30px;
+	height: 30px;
+	background-color: #f1f1f1;
+}
+
+.skills_text {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.skills tr:hover {
+	font-weight: 700;
+}
+
+.skills tr:hover .skills_square {
+	background-color: #d4d4d4;
+}
+
+#about_me {
+	height: 500px;
+	margin-bottom: 100px;
+}
+
+#about_me > div {
+	float: left;
+}
+
+#about_me > div:first-child {
+	width: 49%;
+	padding: 0 10%;
+}
+
+.vertical_line {
+	width: 1px;
+	height: 100px;
+	background-color: black;
+}
+
+#about_me .about_text {
+	width: 50%;
+	padding: 0 100px;
+}
+
+#about_me p {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#contact {
+	height: 400px;
+}
+
+#contact > div {
+	float: left;
+}
+
+#contact > div:first-child {
+	width: 49%;
+	padding-left: 100px; 
+}
+
+#contact span {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#contact .header,
+#contact label {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.phone,
+.email {
+	display: inline-block;
+}
+
+.email {
+	margin-left: 100px;
+}
+
+.contact_form {
+	width: 50%;
+	padding-left: 100px;
+}
+
+#contact input,
+#contact textarea  {
+	background-color: #f1f1f1;
+	width: 300px;
+	border: none;
+	resize: none;
+} 
+
+#contact input {
+	height: 20px;
+}
+
+#contact button {
+	background-color: #ffffff;
+	border: none;
+	margin-left: 130px;
+}
+
+footer p {
+	font-family: Karla, Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	margin-left: 100px;
+}
